@@ -21,7 +21,29 @@ Add book objects inside books using these fields:
 {"title":"Book title","author":"Author name","category":"Culture & traditions","note":"Your recommendation","cover":"","buy":"","indieURL":"","independent":false}
 Set amazon to your Amazon book-list URL. Visitors can suggest books for review, but cannot change the published list.
 Set recommendationEndpoint to the deployed Google Apps Script URL from the included setup. -->
-<script id="site-data" type="application/json">{"title": "ellzmarie’s filipino bookshelf", "intro": "Filipino stories to read, share, and pass on. A growing collection of books that bring our culture a little closer.", "amazon": "https://www.amazon.com/shop/ellzmarie/list/QUQI3RJC72DP?tag=onamzellzmari-20&ref_=aip_sf_list_spv_ons_mixed_d&ccs_id=7a893272-6915-45db-995f-29f577f935f5", "disclosure": "As an Amazon Associate I earn from qualifying purchases.", "books": [], "recommendationEndpoint": ""}</script>
+<script id="site-data" type="application/json">{"title": "ellzmarie’s filipino bookshelf", "intro": "Filipino stories to read, share, and pass on. A growing collection of books that bring our culture a little closer.", "amazon": "https://www.amazon.com/shop/ellzmarie/list/QUQI3RJC72DP?tag=onamzellzmari-20&ref_=aip_sf_list_spv_ons_mixed_d&ccs_id=7a893272-6915-45db-995f-29f577f935f5", "disclosure": "As an Amazon Associate I earn from qualifying purchases.", "books": [
+
+  "books": [
+  {
+    "title": "Filipino Children's Favorite Stories: Fables, Myths and Fairy Tales (Favorite Children's Stories)",
+    "author": "Liana Romulo",
+    "illustrator": "Joanne De Leon",
+    "category": "Kids & family",
+    "buy": "https://www.amazon.com/dp/0804850216?linkCode=ssc&tag=onamzellzmari-20&creativeASIN=0804850216&asc_item-id=amzn1.ideas.QUQI3RJC72DP&ref_=aip_sf_list_spv_ons_mixed_d_asin",
+  },
+  {
+    "title": "The Warrior Dance and Other Classic Philippine Sky Tales",
+    "author": "Neni Sta Romana-Cruz",
+    "illustrator": "Mark Justiniani",
+    "category": "Kids & family",
+    "buy": "https://www.amazon.com/dp/9716300700?linkCode=ssc&tag=onamzellzmari-20&creativeASIN=9716300700&asc_item-id=amzn1.ideas.QUQI3RJC72DP&ref_=aip_sf_list_spv_ons_mixed_d_asin",
+  },
+
+
+  
+]
+  
+], "recommendationEndpoint": ""}</script>
 <header><div class="wrap header"><a href="#" class="brand"><span id="brand">ellzmarie’s filipino bookshelf</span><small>Curated by @ellzmarie</small></a><nav aria-label="Main navigation"><a href="#books">The bookshelf</a><a href="#recommend">Recommend a book</a></nav></div></header>
 <main>
 <section class="wrap intro"><div><div class="eyebrow">Our culture, one book at a time</div><h1>Our stories.<br>Our roots.<br><em>Our bookshelf.</em></h1><p id="introtext"></p><a id="amazonbutton" class="btn" target="_blank" rel="noopener noreferrer sponsored" hidden>Shop my Amazon book list</a><a class="btn secondary" href="#books">Explore the bookshelf</a></div></section>
